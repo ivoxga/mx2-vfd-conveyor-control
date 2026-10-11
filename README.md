@@ -129,7 +129,7 @@ Triggered by the STOP button (emergency still takes priority and goes to S0).
 
 The drive is supplied through terminals `L1` and `N`, the motor is connected to `U/T1`, `V/T2` and `W/T3`, push buttons are wired to the drive's intelligent inputs, and the two LEDs to its intelligent outputs.
 
-![Wiring diagram](wiring-diagram.png)
+![Wiring diagram](electrical diagram.png)
 
 ---
 
