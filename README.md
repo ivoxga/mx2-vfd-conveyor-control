@@ -14,7 +14,7 @@ The drive powers a three-phase induction motor driving a conveyor. Push buttons 
 > Project developed for the course **Electric Machines**, BSc in **Electrical and Computer Engineering**, **Instituto Politécnico do Cávado e Ave (IPCA)**, **2st year**.
 
 ---
-
+ 
 ## Repository structure
 
 ```
