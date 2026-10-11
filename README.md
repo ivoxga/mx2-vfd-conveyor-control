@@ -145,43 +145,43 @@ While stopped, each press of the speed button raises `U(14)` one level: 10, 20, 
 
 ### Soft start
 
-After START, the output frequency rises smoothly from 0 to the selected speed (40 Hz here), and the green LED turns on.
+After START, the output frequency rises smoothly from 0 to the selected speed (40 Hz here), the green LED turns and the red LED turns off.
 
-![Soft start](images/soft-start.png)
+![Soft start](images/arranca%20motor%20e%20led%20vermelho%20liga.png)
 
 ### START and STOP
 
 START ramps the motor up, and STOP brings it back down smoothly. Here STOP was pressed early, so the motor never reached the selected speed. STOP is active when its input reads `0`, which is why its trace drops when the button is pressed.
 
-![START then STOP](images/start-stop.png)
+![START then STOP](images/carrega%20no%20start%20motor%20arranca,%20carrega%20no%20stop%20motor%20para.png)
 
 ### Interlocks
 
 START and STOP pressed **at the same time** do not start the motor:
 
-![START and STOP together](images/start-and-stop-together.png)
+![START and STOP together](images/botão%20start%20e%20stop%20ao%20mesmo%20tempo%20motor%20não%20anda.png)
 
 With the **emergency button latched**, pressing START (twice here) does nothing:
 
-![START with emergency latched](images/start-with-emergency.png)
+![START with emergency latched](images/botão%20start%20e%20emergencia%20ao%20mesmo%20tempo%20motor%20não%20anda.png)
 
 ### Emergency stop
 
 With the motor running (10 Hz here), latching the emergency button stops it:
 
-![Emergency stop](images/emergency-stop.png)
+![Emergency stop](images/botão%20de%20emergencia%20acionado%20motor%20para.png)
 
 ### Cyclic slow-down
 
 The staircase on the left is the entry counters. After the **10th entry**, the frequency falls from 40 Hz to half (20 Hz), and when the 5 s timer ends it climbs back to 40 Hz.
 
-![Cyclic slow-down](images/cyclic-slow-down.png)
+![Cyclic slow-down](images/10%20peças%20e%20a%20velocidade%20cai%20para%20metade%20e%20torna%20a%20subir%20passando%205%20segundos.png)
 
 ### Controlled stop
 
 When STOP is pressed with pieces still on the conveyor, the frequency drops to the minimum (10 Hz) and stays there while the pieces leave (the exit counter rises and the pieces on the conveyor fall). When the last piece leaves, the motor decelerates smoothly to 0.
 
-![Controlled stop](images/controlled-stop.png)
+![Controlled stop](images/carrega%20no%20stop%20e%20espera%20que%20saiem%20todas%20as%20peças%20e%20depois%20desliga%20motor.png)
 
 ---
 
