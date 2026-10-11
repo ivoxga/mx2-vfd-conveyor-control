@@ -129,7 +129,7 @@ Triggered by the STOP button (emergency still takes priority and goes to S0).
 
 The drive is supplied through terminals `L1` and `N`, the motor is connected to `U/T1`, `V/T2` and `W/T3`, push buttons are wired to the drive's intelligent inputs, and the two LEDs to its intelligent outputs.
 
-![Wiring diagram](electrical diagram.png)
+![Wiring diagram](electrical_diagram.png)
 
 ---
 
@@ -141,7 +141,7 @@ All the captures below come from the **monitoring tool of CX-Drive**, running on
 
 While stopped, each press of the speed button raises `U(14)` one level: 10, 20, 30 and 40 Hz (after 40 Hz it wraps back to 10 Hz).
 
-![Speed selection](images/speed-selection.png)
+![Speed selection](images/selecionar%20velocidades.png)
 
 ### Soft start
 
