@@ -20,8 +20,8 @@ The drive powers a three-phase induction motor driving a conveyor. Push buttons 
 ```
 .
 ├── CX-Drive_code.sdd            # drive program and parameters
-├── electrical diagram.drawio    # editable wiring diagram
-├── electrical diagram.png       # wiring diagram image
+├── electrical_diagram.drawio    # editable wiring diagram
+├── electrical_diagram.png       # wiring diagram image
 ├── images/                      # CX-Drive monitoring traces
 └── README.md
 ```
