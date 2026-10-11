@@ -11,6 +11,8 @@ The drive powers a three-phase induction motor driving a conveyor. Push buttons 
 - **Controlled stop:** after STOP the conveyor keeps running at minimum speed until the last piece leaves, then stops smoothly
 - **Emergency stop** and interlocks between the buttons
 
+> Project developed for the course **Electric Machines**, BSc in **Electrical and Computer Engineering**, **Instituto Politécnico do Cávado e Ave (IPCA)**, **2st year**.
+
 ---
 
 ## Repository structure
